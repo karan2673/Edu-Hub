@@ -80,7 +80,7 @@ exports.getCategoryPageDetails = async (req, res) => {
             })
             .exec()
 
-        // console.log('selectedCategory = ', selectedCategory)
+        console.log('selectedCategory = ', selectedCategory)
         // Handle the case when the category is not found
         if (!selectedCategory) {
             // console.log("Category not found.")
